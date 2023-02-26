@@ -1,12 +1,3 @@
---[ script simple made by ton grand père
-Character settings:
-Body Type - 0%
-Height - 90%
-Width - 70%
-Head - 100%
-Proportions - 100%
-]]--
-
 local LocalPlayer = game:GetService("Players").LocalPlayer
 local Character = LocalPlayer.Character
 local Humanoid = Character:FindFirstChildOfClass("Humanoid")
@@ -48,3 +39,4 @@ wait(0.2)
 
 rm()
 wait(0.5)
+end)
